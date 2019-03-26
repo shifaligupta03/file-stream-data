@@ -4,7 +4,7 @@ const config= require('config');
 const connection = mysql.createConnection({
     host: config.get('database.hostname'),
     user: config.get('database.username'),
-    password: config.get('database.password') || '',
+    password: config.get('database.password'),
     database: config.get('database.db-name')
 });
 

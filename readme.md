@@ -1,6 +1,5 @@
 1. Prerequisites: 
-    node
-    npm
+    node && npm
 
 2. Set Environment variables:
 
@@ -11,3 +10,5 @@
     APP_PORT - Application Port
 
 3. Run npm install
+
+4. Run tests and check code coverage - npm test

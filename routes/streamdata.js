@@ -3,7 +3,6 @@ const fs = require('fs');
 const JSONStream = require('JSONStream');
 const config= require('config');
 
-
 router.get('/', function (req, res) {
     let readStream = fs.createReadStream('files/'+config.get('readfile-name'), 'utf-8').pipe(JSONStream.parse("*"));
     let writeStream = fs.createWriteStream('files/'+config.get('writefile-name'), {
