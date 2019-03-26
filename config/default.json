@@ -1,5 +1,4 @@
 {
     "readfile-name":"readdata.json",
-    "writefile-name":"writedata.json",
-    "host-server":"127.0.0.1"
+    "writefile-name":"writedata.json"
 }
