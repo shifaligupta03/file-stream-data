@@ -1,5 +1,5 @@
-let host = 'http://127.0.0.1:3000/data';
-let source = new EventSource(host);
+// let host = 'http://127.0.0.1:3000/data';
+let source = new EventSource('/data');
 
 source.onmessage = function (e) {
     appendCustomerData(e);
