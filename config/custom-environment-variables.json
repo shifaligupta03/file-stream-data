@@ -1,0 +1,9 @@
+{
+    "database":{
+        "hostname":"DB_HOSTNAME",
+        "username":"DB_USERNAME",
+        "password":"DB_PASSWORD",
+        "db-name":"DB_NAME"
+    },
+    "port":"APP_PORT"
+}
