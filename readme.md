@@ -3,12 +3,14 @@
 
 2. Set Environment variables:
 
-    DB_HOSTNAME - Database Host,
-    DB_USERNAME - Database Username,
-    DB_PASSWORD- Database Password,
-    DB_NAME -  Database Name,
-    APP_PORT - Application Port
+    DB_HOSTNAME - Database Host, <br />
+    DB_USERNAME - Database Username, <br />
+    DB_PASSWORD- Database Password, <br />
+    DB_NAME -  Database Name,  <br />
+    APP_PORT - Application Port <br />
 
-3. Run npm install
+3. Table schema is attached - customers.sql
 
-4. Run tests and check code coverage - npm test
+4. Run npm install
+
+5. Run tests and check code coverage - npm test
